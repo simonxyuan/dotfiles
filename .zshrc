@@ -89,25 +89,6 @@ export EDITOR='vim'
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vi='vim'
 alias cls='clear'
-alias szd='docker start -ai 93c63'
-alias zd='docker exec -it 93c63 zsh'
 alias szsh='source ~/.zshrc'
-alias sloop='cd ~/Documents/gibraltar/s_loop'
-alias gib='cd ~/Documents/gibraltar'
-alias sconf='cd ~/Documents/gibraltar/s_loop/config'
 alias tmux='tmux -2'
 alias df='df -h'
-alias tan='python /home/xingfang/Documents/python_scripts/tan_distance.py'
-alias bpnotracking='rosbag play --clock /perception/fusion/obstacle_map:=/mmm /perception/track_v2/markers:=/nnn'
-source /home/xingfang/Documents/gibraltar/setup.bash
-export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:/usr/local/lib/pkgconfig"
-export PATH="$PATH:/opt/arcanist/bin/"
-# export PATH="/home/xingfang/anaconda2/bin:$PATH"
-# export PATH = "$PATH:/usr/bin/python/"
-export PATH=/usr/local/cuda-9.0/bin${PATH:+:${PATH}}
-export LD_LIBRARY_PATH=/usr/local/cuda-9.0/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
-export LD_LIBRARY_PATH=/usr/lib${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
-#launch dropbox
-if ! pgrep -x "dropbox" >/dev/null ; then
-    ~/.dropbox-dist/dropboxd &
-fi
