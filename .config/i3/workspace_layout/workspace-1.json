@@ -1,0 +1,43 @@
+// vim:ts=4:sw=4:et
+{
+    "border": "normal",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 1366,
+       "width": 1276,
+       "x": 2,
+       "y": 618
+    },
+    "name": "VS Code",
+    "percent": 0.5,
+    "swallows": [
+       {
+       "class": "^Code$",
+       "instance": "^code$"
+       }
+    ],
+    "type": "con"
+}
+
+{
+    "border": "normal",
+    "current_border_width": 2,
+    "floating": "user_off",
+    "geometry": {
+       "height": 1397,
+       "width": 1276,
+       "x": 1282,
+       "y": 587
+    },
+    "name": "Chromium",
+    "percent": 0.5,
+    "swallows": [
+       {
+       "class": "^Chromium\\-browser$",
+       "instance": "^chromium\\-browser$"
+       }
+    ],
+    "type": "con"
+}
+

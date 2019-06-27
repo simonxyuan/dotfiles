@@ -1,0 +1,64 @@
+// vim:ts=4:sw=4:et
+{
+    "border": "normal",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 1401,
+       "width": 2556,
+       "x": 0,
+       "y": 0
+    },
+    "name": "xingfang",
+    "percent": 0.333333333333333,
+    "swallows": [
+       {
+       "class": "^Pcmanfm$",
+       "instance": "^pcmanfm$"
+       }
+    ],
+    "type": "con"
+}
+
+{
+    "border": "normal",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 1401,
+       "width": 2556,
+       "x": 0,
+       "y": 0
+    },
+    "name": "xingfang",
+    "percent": 0.333333333333333,
+    "swallows": [
+       {
+       "class": "^Pcmanfm$",
+       "instance": "^pcmanfm$"
+       }
+    ],
+    "type": "con"
+}
+
+{
+    "border": "normal",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 1401,
+       "width": 2556,
+       "x": 0,
+       "y": 0
+    },
+    "name": "xingfang",
+    "percent": 0.333333333333333,
+    "swallows": [
+       {
+       "class": "^Pcmanfm$",
+       "instance": "^pcmanfm$"
+       }
+    ],
+    "type": "con"
+}
+
